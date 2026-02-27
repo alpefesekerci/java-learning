@@ -2,7 +2,7 @@ package week01;
 
 public class methodParameters {
     static String ogrenciSistemi(String ad,int numara,int not) {
-        return "Öğrenci: " + ad + " " + " - No: " + numara + " - Sınav Notu: " + not;
+        return "Öğrenci: " + ad + " - No: " + numara + " - Sınav Notu: " + not;
         }
 
     static void main() {
@@ -11,6 +11,7 @@ public class methodParameters {
         int[] notlar = {95, 100, 90};
 
         System.out.println("ÖĞRENCİ NOT LİSTESİ");
+        System.out.println("-------------------");
 
         for (int i = 0; i < isimler.length; i++) {
 
