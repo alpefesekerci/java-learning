@@ -1,7 +1,7 @@
 package week01;
 
 public class factorialRecursion {
-    static int factorial (int n) {
+    static int factorial(int n) {
         if (n > 1) {
             return n * factorial(n - 1);
         } else {
@@ -13,5 +13,5 @@ public class factorialRecursion {
         System.out.println("Factorial of 5 is " + factorial(5));
     }
 
-    }
+}
 

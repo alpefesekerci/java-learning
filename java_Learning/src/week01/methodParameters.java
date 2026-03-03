@@ -1,9 +1,9 @@
 package week01;
 
 public class methodParameters {
-    static String ogrenciSistemi(String ad,int numara,int not) {
+    static String ogrenciSistemi(String ad, int numara, int not) {
         return "Öğrenci: " + ad + " - No: " + numara + " - Sınav Notu: " + not;
-        }
+    }
 
     static void main() {
         String[] isimler = {"Alp", "İsmet", "Bora"};
@@ -18,6 +18,6 @@ public class methodParameters {
             System.out.println(ogrenciSistemi(isimler[i], numaralar[i], notlar[i]));
         }
     }
-    }
+}
 
 

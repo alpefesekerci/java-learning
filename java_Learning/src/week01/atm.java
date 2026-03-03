@@ -18,26 +18,26 @@ public class atm {
 
         islem = scan.nextInt();
 
-        switch(islem) {
-            case 1 :
+        switch (islem) {
+            case 1:
                 System.out.println("Çekilecek Tutarı Giriniz:");
                 int miktarC = scan.nextInt();
                 bakiye = bakiye - miktarC;
                 System.out.println("Yeni Bakiye : " + bakiye + " tl ");
                 break;
-            case 2 :
+            case 2:
                 System.out.println("Yatıralacak Tutarı Giriniz:");
                 int miktarY = scan.nextInt();
                 bakiye = bakiye + miktarY;
                 System.out.println("Yeni Bakiye : " + bakiye + " tl ");
                 break;
-            case 3 :
+            case 3:
                 System.out.println("Bakiye : " + bakiye + " tl ");
                 break;
-            case 4 :
+            case 4:
                 System.out.println("Kartınızı almayı unutmayınız.");
                 break;
-            default :
+            default:
                 System.out.println("Lütfen Geçerli Bir İşlem Seçiniz.");
 
         }

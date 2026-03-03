@@ -8,28 +8,25 @@ public class primeNumbers {
         int sayi = new Scanner(System.in).nextInt();
         boolean hesaplama = true;
 
-        if (sayi==1) {
+        if (sayi == 1) {
             System.out.println(sayi + " " + "Asal Sayı Değildir.");
             return;
         }
 
-        if (sayi < 1){
+        if (sayi < 1) {
             System.out.println(sayi + " " + "Geçersiz Sayıdır.");
             return;
         }
 
-        for (int i=2; i < sayi; i++)
-        {
-            if (sayi % i == 0)
-            {
+        for (int i = 2; i < sayi; i++) {
+            if (sayi % i == 0) {
                 hesaplama = false;
                 break;
             }
         }
-        if (hesaplama){
+        if (hesaplama) {
             System.out.println(sayi + " " + "Asal Sayıdır.");
-        }
-        else{
+        } else {
             System.out.println(sayi + " " + "Asal Sayı Değildir.");
         }
 

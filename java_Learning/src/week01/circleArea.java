@@ -11,10 +11,7 @@ public class circleArea {
         int r = scan.nextInt();
         double alan = Math.PI * r * r;
 
-        System.out.println("Dairenin Alanı : " + alan );
-
-
-
+        System.out.println("Dairenin Alanı : " + alan);
 
 
     }

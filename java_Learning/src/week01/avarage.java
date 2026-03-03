@@ -2,7 +2,7 @@ package week01;
 
 public class avarage {
     static void main() {
-        int numbers[] = {4, 8, 15, 16, 23, 42};
+        int[] numbers = {4, 8, 15, 16, 23, 42};
 
         float avg, sum = 0;
 

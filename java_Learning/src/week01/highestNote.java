@@ -5,8 +5,8 @@ public class highestNote {
         int[] notes = {10, 90, 80, 70, 60, 50, 45, 95};
         int highestNote = notes[0];
 
-        for (int note : notes){
-            if (highestNote < note){
+        for (int note : notes) {
+            if (highestNote < note) {
                 highestNote = note;
             }
         }
