@@ -1,9 +1,15 @@
 package week01;
 
+import java.util.Scanner;
+
 public class amicableNumbers {
     static void main() {
-        int sayi1 = 220;
-        int sayi2 = 284;
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("1. Sayıyı Giriniz: ");
+        int sayi1 = scan.nextInt();
+        System.out.println("2. Sayıyı Giriniz: ");
+        int sayi2 = scan.nextInt();
         int toplam1 = 0;
         int toplam2 = 0;
 
