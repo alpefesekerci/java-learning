@@ -15,13 +15,15 @@ public class amicableNumbers {
 
         for (int i = 1; i < sayi1; i++) {
             if (sayi1 % i == 0) {
-                toplam1 = toplam1 + i;
+               // toplam1 = toplam1 + i;
+                toplam1 +=i;
             }
         }
 
         for (int i = 1; i < sayi2; i++) {
             if (sayi2 % i == 0) {
-                toplam2 = toplam2 + i;
+               // toplam2 = toplam2 + i;
+                toplam2 +=i;
             }
         }
 
@@ -30,5 +32,6 @@ public class amicableNumbers {
         }else {
             System.out.println(sayi1 + " ve " + sayi2 + " arkadaş değildir.");
         }
+        scan.close();
     }
 }
