@@ -24,21 +24,22 @@ public class perfectNumber {
                 System.out.println("Hata: Lütfen sadece rakam kullanarak geçerli bir tamsayı giriniz!");
                 scan.next();
             }
+        }
 
-            int total = 0;
+        int total = 0;
 
-            for (int i = 1; i < number; i++) {
-                if (number % i == 0) {
-                    total = total + i;
+        for (int i = 1; i < number; i++) {
+            if (number % i == 0) {
+                total = total + i;
 
-                }
-            }
-            if (total == number) {
-                System.out.println(number + " " + "Mükemmel sayıdır.");
-            } else {
-                System.out.println(number + " " + "Mükemmel sayı değildir.");
             }
         }
+        if (total == number) {
+            System.out.println(number + " " + "Mükemmel sayıdır.");
+        } else {
+            System.out.println(number + " " + "Mükemmel sayı değildir.");
+        }
+
         scan.close();
     }
 }
