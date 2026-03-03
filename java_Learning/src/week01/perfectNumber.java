@@ -21,5 +21,6 @@ public class perfectNumber {
         } else {
             System.out.println(number + " " + "Mükemmel sayı değildir.");
         }
+        scan.close();
     }
 }
