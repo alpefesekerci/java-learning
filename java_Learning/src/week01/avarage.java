@@ -1,19 +1,33 @@
 package week01;
 
+import java.util.Scanner;
+
 public class avarage {
     static void main() {
-        int[] numbers = {4, 8, 15, 16, 23, 42};
+        Scanner scan = new Scanner(System.in);
 
-        float avg, sum = 0;
+        double total = 0;
+        int sum;
 
-        int length = numbers.length;
+        while (true) {
+            System.out.println("Kaç adet sayının ortalamasını almak istiyorsunuz? ");
+            sum = scan.nextInt();
 
-        for (int num : numbers) {
-            sum += num;
+            if (sum > 0) {
+                break;
+            } else {
+                System.out.println("En az bir sayı girmelisiniz!");
+            }
         }
 
-        avg = sum / length;
+            for (int i = 1; i <= sum; i++) {
+                System.out.println(i + ". sayıyı girin:");
+                double number = scan.nextDouble();
+                total += number;
+            }
 
-        System.out.println("The average is: " + avg);
+            double ortalama = total / sum;
+            System.out.println("Girdiğiniz sayıların ortalaması: " + ortalama);
+
+        }
     }
-}
