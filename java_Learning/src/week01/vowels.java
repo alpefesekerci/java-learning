@@ -16,8 +16,16 @@ public class vowels {
             case 'U': case 'u' :
                 System.out.println(harf + " " + "Kalın Sesli harftir.");
                 break;
-            default:
+
+            case 'E': case 'e' :
+            case 'İ': case 'i' :
+            case 'Ö': case 'ö' :
+            case 'Ü': case 'ü' :
                 System.out.println(harf + " " + "İnce Sesli harftir.");
+                break;
+
+                default:
+                System.out.println(harf + " " + "Sesli Harf Değildir. \nLütfen Geçerli Bir Harf Giriniz.");
 
 
         }
