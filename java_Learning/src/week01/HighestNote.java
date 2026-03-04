@@ -1,7 +1,7 @@
 package week01;
 
-public class highestNote {
-    static void main() {
+public class HighestNote {
+    public static void main(UpperLowerCase[] args) {
         int[] notes = {10, 90, 80, 70, 60, 50, 45, 95};
         int highestNote = notes[0];
 

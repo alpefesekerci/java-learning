@@ -2,8 +2,8 @@ package week01;
 
 import java.util.Scanner;
 
-public class atm {
-    static void main() {
+public class ATM {
+    public static void main(UpperLowerCase[] args) {
         Scanner scan = new Scanner(System.in);
 
         int bakiye = 9999;

@@ -2,8 +2,8 @@ package week01;
 
 import java.util.Scanner;
 
-public class perfectNumber {
-    static void main() {
+public class PerfectNumber {
+    public static void main(UpperLowerCase[] args) {
         Scanner scan = new Scanner(System.in);
         int number = 0;
 

@@ -2,10 +2,9 @@ package week01;
 
 import java.util.Scanner;
 
-public class amicableNumbers {
-    static void main() {
+public class AmicableNumbers {
+    public static void main(UpperLowerCase[] args) {
         Scanner scan = new Scanner(System.in);
-
         System.out.println("1. Sayıyı Giriniz: ");
         int sayi1 = scan.nextInt();
         System.out.println("2. Sayıyı Giriniz: ");
@@ -15,21 +14,21 @@ public class amicableNumbers {
 
         for (int i = 1; i < sayi1; i++) {
             if (sayi1 % i == 0) {
-               // toplam1 = toplam1 + i;
-                toplam1 +=i;
+                // toplam1 = toplam1 + i;
+                toplam1 += i;
             }
         }
 
         for (int i = 1; i < sayi2; i++) {
             if (sayi2 % i == 0) {
-               // toplam2 = toplam2 + i;
-                toplam2 +=i;
+                // toplam2 = toplam2 + i;
+                toplam2 += i;
             }
         }
 
-        if (sayi1==toplam2 && sayi2==toplam1){
+        if (sayi1 == toplam2 && sayi2 == toplam1) {
             System.out.println(sayi1 + " ve " + sayi2 + " arkadaştır.");
-        }else {
+        } else {
             System.out.println(sayi1 + " ve " + sayi2 + " arkadaş değildir.");
         }
         scan.close();

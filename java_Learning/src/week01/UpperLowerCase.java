@@ -1,7 +1,7 @@
 package week01;
 
-public class string {
-    static void main() {
+public class UpperLowerCase {
+    public static void main(String[] args) {
         String txt = "Hello World";
         System.out.println("The length of the txt string is: " + txt.length());
         System.out.println(txt.toUpperCase());

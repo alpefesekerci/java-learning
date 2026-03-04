@@ -1,6 +1,6 @@
 package week01;
 
-public class methodParameters {
+public class MethodParameters {
     static String ogrenciSistemi(String ad, int numara, int not) {
         return "Öğrenci: " + ad + " - No: " + numara + " - Sınav Notu: " + not;
     }

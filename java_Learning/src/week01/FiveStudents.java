@@ -2,17 +2,17 @@ package week01;
 
 import java.util.Scanner;
 
-public class fiveStudents {
-    static void main() {
+public class FiveStudents {
+    public static void main(UpperLowerCase[] args) {
         int[] notlar = new int[5];
-        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.println("Lutfen 5 öğrencinin notlarini giriniz:");
 
 
         for (int i = 0; i < 5; i++) {
             System.out.print((i + 1) + ". ogrencinin notu: ");
-            notlar[i] = sc.nextInt();
+            notlar[i] = scan.nextInt();
         }
 
         System.out.println("Ogrenci Not Listesi: ");

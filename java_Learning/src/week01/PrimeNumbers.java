@@ -2,8 +2,10 @@ package week01;
 
 import java.util.Scanner;
 
-public class primeNumbers {
-    static void main() {
+public class PrimeNumbers {
+    public static void main(UpperLowerCase[] args) {
+        Scanner scan = new Scanner(System.in);
+
         System.out.print("Sayıyı giriniz : ");
         int sayi = new Scanner(System.in).nextInt();
         boolean hesaplama = true;

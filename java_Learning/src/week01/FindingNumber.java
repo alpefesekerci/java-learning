@@ -2,8 +2,8 @@ package week01;
 
 import java.util.Scanner;
 
-public class findingNumber {
-    static void main() {
+public class FindingNumber {
+    public static void main(UpperLowerCase[] args) {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Bulmak istediğiniz sayıyı giriniz:");

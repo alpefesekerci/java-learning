@@ -2,8 +2,8 @@ package week01;
 
 import java.util.Scanner;
 
-public class calculator {
-    static void main() {
+public class Calculator {
+    public static void main(UpperLowerCase[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("1. Sayıyı Giriniz : ");
         int sayi1 = scan.nextInt();

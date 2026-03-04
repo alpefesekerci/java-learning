@@ -3,8 +3,8 @@ package week01;
 import java.util.Scanner;
 
 
-public class factorial {
-    static void main() {
+public class Factorial {
+    public static void main(UpperLowerCase[] args) {
         Scanner scan = new Scanner(System.in);
 
         int number;

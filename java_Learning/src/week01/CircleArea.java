@@ -2,8 +2,8 @@ package week01;
 
 import java.util.Scanner;
 
-public class circleArea {
-    static void main() {
+public class CircleArea {
+    public static void main(UpperLowerCase[] args) {
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Dairenin yarıçapını giriniz : ");

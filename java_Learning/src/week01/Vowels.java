@@ -2,8 +2,8 @@ package week01;
 
 import java.util.Scanner;
 
-public class vowels {
-    static void main() {
+public class Vowels {
+    public static void main(UpperLowerCase[] args) {
         Scanner scan = new Scanner(System.in);
         boolean donguDevamEtsin = true;
 

@@ -2,8 +2,10 @@ package week01;
 
 import java.util.Scanner;
 
-public class examGrade {
-    static void main() {
+public class ExamGrade {
+    public static void main(UpperLowerCase[] args) {
+        Scanner scan = new Scanner(System.in);
+
         System.out.print("Notunuzu giriniz : ");
         int not = new Scanner(System.in).nextInt();
         if (not <= 100 && not >= 90) {

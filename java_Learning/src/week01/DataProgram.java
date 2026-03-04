@@ -2,9 +2,9 @@ package week01;
 
 import java.util.Scanner;
 
-public class dataProgram {
-    static void main() {
-        new Scanner(System.in);
+public class DataProgram {
+    public static void main(UpperLowerCase[] args) {
+        Scanner scan = new Scanner(System.in);
 
         String adSoyad = "Alp" + " " + "Efe" + " " + "Şekerci";
 

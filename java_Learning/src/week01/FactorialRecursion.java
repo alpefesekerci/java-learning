@@ -1,6 +1,6 @@
 package week01;
 
-public class factorialRecursion {
+public class FactorialRecursion {
     static int factorial(int n) {
         if (n > 1) {
             return n * factorial(n - 1);

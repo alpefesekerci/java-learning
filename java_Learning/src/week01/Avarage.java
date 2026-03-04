@@ -2,8 +2,8 @@ package week01;
 
 import java.util.Scanner;
 
-public class avarage {
-    static void main() {
+public class Avarage {
+    public static void main(UpperLowerCase[] args) {
         Scanner scan = new Scanner(System.in);
 
         double total = 0;
