@@ -1,7 +1,7 @@
 package week01;
 
 public class PrimeNumbersVersion2 {
-    public static void main(UpperLowerCase[] args) {
+    public static void main(String[] args) {
         int number = 3;
         boolean isPrime = true;
 

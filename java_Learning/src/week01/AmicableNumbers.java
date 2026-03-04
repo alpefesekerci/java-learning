@@ -3,7 +3,7 @@ package week01;
 import java.util.Scanner;
 
 public class AmicableNumbers {
-    public static void main(UpperLowerCase[] args) {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("1. Sayıyı Giriniz: ");
         int sayi1 = scan.nextInt();

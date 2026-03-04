@@ -3,7 +3,7 @@ package week01;
 import java.util.Scanner;
 
 public class Avarage {
-    public static void main(UpperLowerCase[] args) {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
         double total = 0;

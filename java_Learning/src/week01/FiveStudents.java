@@ -3,7 +3,7 @@ package week01;
 import java.util.Scanner;
 
 public class FiveStudents {
-    public static void main(UpperLowerCase[] args) {
+    public static void main(String[] args) {
         int[] notlar = new int[5];
         Scanner scan = new Scanner(System.in);
 
