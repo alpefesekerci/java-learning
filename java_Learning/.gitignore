@@ -1,4 +1,9 @@
 .idea/
+*.iml
+*.class
+target/
+out/
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
